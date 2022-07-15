@@ -1,0 +1,88 @@
+/* styling for all pages */
+
+body {
+	background-color: white;
+	font-family: "Arial";
+}
+
+#center {
+	display:  flex;
+	align-items:  center;
+	justify-content:  center;
+}
+
+
+
+button {
+	padding-right, padding-left: 3%;
+	padding-top, padding-bottom: 1%;
+	color:  black;
+	background-color: white;
+	text-align:  center;
+	font-weight:  normal;
+	font-size:  16px;
+	text-transform:  uppercase;
+	border:  1px solid black;
+	border-radius:  5px;
+}
+
+-moz-selection {
+	background: transparent;
+}
+
+/* start page */
+
+#title {
+	text-align:  center;
+	font-weight:  bold;
+}
+
+
+hr {
+	width:  25%;
+	color:  black;
+	background-color:  black;
+	height:  3px;
+	display:  flex;
+	align-items:  center;
+	justify-content:  center;
+	border:  none;
+}
+
+/* play page */
+
+
+#play-message {
+	text-align:  center;
+}
+
+img {
+	height: 150px;
+}
+
+#container {
+	position: relative;
+  	text-align: center;
+  	color: white;
+  	padding: 2%;
+  	user-select:  none;
+  	outline-style:  none;
+  	-webkit-tap-highlight-color:transparent;
+  }
+
+#first-card, #second-card, #third-card {
+	height:  150px;
+  	user-select:  none;
+  	outline-style:  none;
+  	-webkit-tap-highlight-color:transparent;
+  	cursor:  pointer;
+}
+
+/* #question-mark {
+	position: absolute;
+  	top: 40%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	font-weight:  bold;
+  	font-size:  21px;
+} */
